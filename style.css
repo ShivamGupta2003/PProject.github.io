@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+
+#heading
+{
+    height:500px;
+    background-image: url(macbook_mouse.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 80%;
+    margin-top: 0px;
+}
+
+#horizontal nav 
+{
+    margin-top: 0%;
+}
+
+
