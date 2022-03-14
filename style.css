@@ -16,7 +16,12 @@ body{
 #horizontal nav 
 {
     margin-top: 0%;
-margin-bottom:2%;
+  background-image: url(macbook_mouse.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
 }
 
 
