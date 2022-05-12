@@ -67,7 +67,7 @@
 
 
 #name-social-container {
-    margin-top: 20vh;
+    margin-top: 12vh;
 }
 
 #my-name {
@@ -77,6 +77,7 @@
     font-weight: 700;
     margin-bottom: 0.5rem;
     text-align: center;
+  
 }
 
 .social-icons{
@@ -94,11 +95,13 @@
 }
 
 .social-icons li a img {
-    width: 1.2rem;
+    width: 2.4rem;
     padding: 8px;
 }
 
 
+
+/* --- IMAGE MY PROFILE ---- */
 
 
 #my-image {
@@ -113,10 +116,205 @@
     width: 100%;
     border-radius: 50%;
     position: relative;
+
 }
 
 
+
+/* --- ABOUT --- */
+
+
 #about{
-    background-color: rgb(131, 163, 163);
+    background-color: rgb(11, 12, 70);
+    background-attachment: fixed;
+    padding-bottom: 40px;
+}
+
+
+#first-para{
+    padding-top: 15px;
+    background-color: #172a33;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#about p{
+    /* background-color: rgb(131, 163, 163); */
+    color: aliceblue;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    /* padding-top: 20px; */
+    font-size: 1.2rem;
+    font-weight: 500;
+
     /* height: 400px; */
+}
+
+
+
+
+/* ---- SKILLS ---- */
+
+#skills{
+    /* margin-top: -vh; */
+    background-color: #111827;
+    height: 90vh;
+}
+
+#skills h1{
+    color:#307ff6;
+    font-weight: 10000;
+    font-size: 2.4rem;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 0.11rem;
+}
+
+#c-lang{
+    /* width: -moz-fit-content; */
+    /* width: fit-content; */
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+    width: 27vh;
+    height: 10vh;
+    margin-top: 25px;
+    margin-left: 40px;
+    border-radius: 10px 10px 10px 10px ;
+    display: flex;
+
+}
+
+#c-lang h4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-left: 2vh;
+    font-size: 1.2rem;
+    font-family: calibri;
+}
+
+#c-lang img{
+    display: inline-block;
+    width:7vh;
+    height:7vh;
+    margin-left: 1vh;
+    margin-top: 1vh;
+}
+
+
+#tools{
+    /* margin-top: 20px; */
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+
+
+/* ---- EXPERIENCE ---- */
+
+#experience{
+    height: 110vh;
+    background-color:rgb(11, 12, 70);
+}
+
+
+#experience h1{
+    color: azure;
+    font-weight: 10000;
+    font-size: 2.4rem;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 0.11rem;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.timeline{
+    position: relative;
+    width:75%;
+    /* border:2px solid black; */
+    margin: auto;
+}
+
+.timeline-box{
+    position: relative;
+    width: 40%;
+    left:3%;
+    min-height: 150px;
+    /* border:2px solid black; */
+    margin: 5px;
+    color: azure;
+}
+
+.timeline-box:nth-child(2n){
+    left:56%;
+}
+
+.timeline-divider{
+    position: absolute;
+    height:75%;
+    width: 0px;
+    border: 1px dashed #0096fa6b;
+    top: 10%;
+    left: 50%;
+}
+
+.timeline-travel{
+    margin-left: -3vh;
+    position: sticky;
+    top:25%;
+    transform: rotate(135deg);
+    color: aliceblue;
+    /* font-size: 5.8vh; */
+    /* margin-left: 5%; */
+}
+
+.timeline-travel i::before{
+    left: 19vh;
+}
+
+
+
+
+
+#education{
+    height: 220vh;
+    background-color: #111827;
+}
+
+
+#education h1{
+    color:#307ff6;
+    font-weight: 10000;
+    font-size: 2.4rem;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 0.11rem;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.timeline-travel2{
+    margin-left: -8px;
+    position: sticky;
+    top:25%;
+    transform: rotate(0deg);
+    color: aliceblue;
+    /* font-size: 5.8vh; */
+    /* margin-left: 5%; */
+}
+
+.timeline-travel2 i::before{
+    left: 19vh;
 }
