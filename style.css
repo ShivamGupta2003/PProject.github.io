@@ -1,19 +1,122 @@
-body{
-    margin: 0px;
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: gray; */
 }
+
 
 #body-header{
-    height:65vh;
-    background-image: url(macbook_mouse.jpg);
-    background-size: cover;
+    /* background-color: lightblue; */
+    background-image: url(pngtree-technological-sense-geometric-line-simple-image_19419.jpg);
+    opacity: 0.95;
+    background-repeat: no-repeat;
     background-position: center;
-    /* opacity: 0.7; */
+    height: 65vh;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 65vh; */
+}
+
+
+/* ---- NAVIGATION BAR ---- */
+
+.horizontal-list li{
+    display: inline-block;
+    padding: 15px;
     
-
+    
 }
 
-#body-header:hover{
-    opacity: 0.7001;
-
+.horizontal-list{
+    text-align: center;
 }
 
+.horizontal-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(173, 223, 183);
+    font-weight: 900;
+    border-bottom: 0px solid red ;
+   
+}
+
+.horizontal-list li a:hover{
+    color: rgb(112, 213, 110);
+}
+
+.horizontal-list li a::after{
+    content: '';
+    width: 00%;
+    height: 3px;
+    background:#3f9274 ;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+
+.horizontal-list li a:hover::after{
+    width:100%;
+    opacity: 0.8;
+    transform: 0.7s;
+    
+}
+
+
+/* ---- NAME CONTAINER ----- */
+
+
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.08rem;
+    color: rgb(155, 150, 218);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.social-icons{
+    text-align: center;
+}
+
+.social-icons li {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.social-icons li:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.social-icons li a img {
+    width: 1.2rem;
+    padding: 8px;
+}
+
+
+
+
+#my-image {
+    height: 14rem;
+    width: 14rem;
+    margin: auto;
+    margin-top: -14vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+#about{
+    background-color: rgb(131, 163, 163);
+    /* height: 400px; */
+}
