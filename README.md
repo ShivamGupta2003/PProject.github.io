@@ -12,7 +12,7 @@ This repository contains a simple resume website built with HTML and CSS. The we
 - Education: Share your educational background and qualifications.
 - Contact: Provide contact information or a form through which visitors can get in touch with me.
 
-###Getting Started
+### Getting Started
 To get a copy of this project up and running on your local machine, you can either clone the repository or download the ZIP archive.
 
 
